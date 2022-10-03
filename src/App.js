@@ -5,6 +5,7 @@ import { AnimatePresence } from 'framer-motion';
 import Start from './components/Start/Start';
 import Search from './components/Search/Search';
 import PokemonInfo from './components/PokemonInfo/PokemonInfo';
+//----
 
 function App() {
   const location = useLocation();
