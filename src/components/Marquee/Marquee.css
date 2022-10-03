@@ -1,0 +1,42 @@
+.a {
+    filter: saturate(2);
+    width: 160px;
+    height: 160px;
+    margin-left: 40px
+}
+
+.firstRow {
+    display: flex;
+    width: 50%;
+}
+
+.secondRow {
+    display: flex;
+    width: 50%;
+}
+
+.marqueeContainer {
+    width: 75%;
+    height: 200px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.marquee {
+    display: flex;
+    height: 160px;
+    width: 1500%;
+    position: absolute;
+    top: 0%;
+    animation: marquee 80s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -750%;
+    }
+}

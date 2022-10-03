@@ -1,0 +1,49 @@
+.searchResult {
+    background-color: rgb(198, 198, 240);
+    width: 200%;
+    border-radius: 6px;
+    position: absolute;
+    top: 60px;
+}
+
+.searchBar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40px;
+    gap: 20px;
+}
+
+.search-text {
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+.search-bar-img {
+    height: 100%;
+    margin-left: 30px;
+
+}
+
+.searchPokemon {
+    display: flex;
+    text-decoration: none;
+    color: rgb(97, 65, 113);
+    align-items: center;
+    height: 60px;
+}
+
+.searchPokemon:hover {
+    background-color: rgb(177, 177, 242);
+}
+
+.search-bar {
+    font-size: x-large;
+    padding: 5px;
+    border: none;
+    height: 100%;
+    width: 200%;
+    border-radius: 12px;
+    outline: none;
+}
